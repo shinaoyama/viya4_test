@@ -26,7 +26,7 @@ proc printto log = "&CURRFOLDERPATH./Table_2.log" new;
 run ;
 quit ;
  
-data WORK.CLASS;
+data WORK.CLASS2;
 set SASHELP.CLASS;
 run;
  

@@ -5,13 +5,13 @@ NOTE: PROCEDURE PRINTTO処理(合計処理時間):
 
 157    quit ;
 158    
-159    data WORK.CLASS;
+159    data WORK.CLASS2;
 160    set SASHELP.CLASS;
 161    run;
 
 NOTE: データセットSASHELP.CLASSから19オブザベーションを読み込みました。
-NOTE: データセットWORK.CLASSは19オブザベーション、5変数です。
-NOTE: 圧縮によって、データセットWORK.CLASSのサイズを100.00パーセント増加しました。
+NOTE: データセットWORK.CLASS2は19オブザベーション、5変数です。
+NOTE: 圧縮によって、データセットWORK.CLASS2のサイズを100.00パーセント増加しました。
       圧縮時のサイズは2ページです。(非圧縮時は1ページが必要です)
 NOTE: DATA ステートメント処理(合計処理時間):
       処理時間           0.00 秒
@@ -20,7 +20,7 @@ NOTE: DATA ステートメント処理(合計処理時間):
 
 162    
 163    proc datasets library=WORK KILL nolist;
-NOTE: WORK.CLASS (memtype=DATA)を削除します。
+NOTE: WORK.CLASS2 (memtype=DATA)を削除します。
 NOTE: WORK.PROFILE (memtype=CATALOG)を削除します。
 NOTE: ファイルWORK.PROFILE (memtype=CATALOG)は使用中のため、削除できません。
 NOTE: WORK.REGSTRY (memtype=ITEMSTOR)を削除します。
@@ -36,12 +36,12 @@ NOTE: ファイルWORK.SASMACR (memtype=CATALOG)は使用中のため、削除�
 
 NOTE: PROCEDURE DATASETS処理(合計処理時間):
       処理時間           0.00 秒
-      CPU時間            0.00 秒
+      CPU時間            0.01 秒
       
 
 166    
 167    proc printto;
 168    run ;
-5                                                         SAS システム               2025年 3月 5日 水曜日 21時27分35秒
+5                                                         SAS システム               2025年 3月 5日 水曜日 21時28分41秒
 
 
