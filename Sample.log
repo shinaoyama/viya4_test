@@ -5,7 +5,7 @@ NOTE: PROCEDURE PRINTTO処理(合計処理時間):
 
 134   quit ;
 135   
-136   /* Successfully completed  */
+136   /* Completed successfully */
 137   data WORK.CLASS;
 138   	set SASHELP.CLASS;
 139   run;
@@ -13,7 +13,7 @@ NOTE: PROCEDURE PRINTTO処理(合計処理時間):
 NOTE: データセットSASHELP.CLASSから19オブザベーションを読み込みました。
 NOTE: データセットWORK.CLASSは19オブザベーション、5変数です。
 NOTE: DATA ステートメント処理(合計処理時間):
-4                                                         SAS システム               2025年 3月 6日 木曜日 16時40分22秒
+4                                                         SAS システム               2025年 3月 6日 木曜日 16時52分15秒
 
       処理時間           0.00 秒
       CPU時間            0.00 秒
