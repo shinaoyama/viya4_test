@@ -1,0 +1,29 @@
+NOTE: PROCEDURE PRINTTO処理(合計処理時間):
+      処理時間           0.05 秒
+      CPU時間            0.00 秒
+      
+
+134   quit ;
+135   
+136   /* Error occured */
+137   data WORK.CLASS;
+138   	set SASHELP.NO_EXIST_DATASET;
+ERROR: ファイルSASHELP.NO_EXIST_DATASET.DATAは存在しません。
+139   run;
+
+NOTE: エラーが発生したため、このステップの処理を中止しました。
+WARNING: データセットWORK.CLASSは未完成です。このステップは、0オブザベーション、
+4                                                         SAS システム               2025年 3月18日 火曜日 11時17分16秒
+
+         0変数で停止しました。
+WARNING: このステップを中止したため、データセットWORK.CLASSを置き換えていません。
+NOTE: DATA ステートメント処理(合計処理時間):
+      処理時間           0.00 秒
+      CPU時間            0.01 秒
+      
+
+140   
+141   
+142   proc printto;
+143   run ;
+
